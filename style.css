@@ -1,20 +1,25 @@
-
-body {background-color: lightgrey;}
+body {
+  background-color: lightgrey;
+}
 
 #center {
-  position: absolute;
+  position: relative;
   text-align: center;
   top: 50%;
   left: 50%;
-  transform: translate(-15%, -20%);
-  cursor: move;
+  transform: translate(-50%, -50%);
+  max-width: 530px;
+  max-height: 303px;
 }
 
 #image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   width: 530px;
   height: 303px;
-  margin: auto;
+  cursor: move;
+  position:absolute;
+  top:0;
+  left:0;
 }
 
 @media (max-width: 600px) {
